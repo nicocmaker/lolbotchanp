@@ -1,8 +1,9 @@
 const { Client, GatewayIntentBits, REST, Routes, SlashCommandBuilder, EmbedBuilder } = require("discord.js");
 const axios = require("axios");
 
-const TOKEN = process.env.MTUxMjkxNTA1MjYzMjYwNDg2Mg.GCkgoq.B9ezmzhFDBX0ofWtixnuEu_lveysIVG67feWuk;
-const CLIENT_ID = process.env.1512915052632604862;
+// 環境変数の読み込み方を正しい記述（文字列のキー）に修正しました
+const TOKEN = process.env.DISCORD_TOKEN;
+const CLIENT_ID = process.env.CLIENT_ID;
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
