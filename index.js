@@ -32,6 +32,8 @@ const commands = [
   new SlashCommandBuilder().setName("top").setDescription("TOPスピン"),
   new SlashCommandBuilder().setName("mid").setDescription("MIDスピン"),
   new SlashCommandBuilder().setName("jg").setDescription("JGスピン"),
+  new SlashCommandBuilder().setName("adc").setDescription("ADCスピン"),
+  new SlashCommandBuilder().setName("sup").setDescription("SUPスピン"),
 ].map(c => c.toJSON());
 
 const rest = new REST({ version: "10" }).setToken(TOKEN);
