@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node lol-chanp-bot/index.js"
+    "start": "node lol-chanp-not/index.js"
   },
   "dependencies": {
     "discord.js": "^14.0.0",
