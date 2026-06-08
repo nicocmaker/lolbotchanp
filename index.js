@@ -81,7 +81,7 @@ const commands = [
   new SlashCommandBuilder().setName("sup").setDescription("SUP抽選"),
 
   new SlashCommandBuilder().setName("team").setDescription("5レーン一括抽選"),
-  new SlashCommandBuilder().setName("random").setDescription("全チャンプから抽選")
+  new SlashCommandBuilder().setName("all").setDescription("全チャンプから抽選")
 ].map(c => c.toJSON());
 
 const rest = new REST({ version: "10" }).setToken(TOKEN);
